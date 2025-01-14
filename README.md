@@ -40,7 +40,6 @@ pictures that was generated using the program.
 - Customize position, scale, and rotation of clothing on the background.
 - Download result images.
 
-
 ## Step-by-Step Instructions on how to use the program
 
 1. **Upload a Clothing Image**:
@@ -69,3 +68,22 @@ pictures that was generated using the program.
 
 
 Enjoy using Dressify!
+
+##Information about the CNN model:
+CNN Model Information:
+
+Architecture:
+Input: Image size (60x80x3).
+Three convolutional layers with ReLU activation and filters increasing from 32 to 128, each followed by MaxPooling2D.
+Fully connected dense layer with 128 neurons and a Dropout layer for regularization.
+Output layer with 1 neuron and sigmoid activation for binary classification.
+
+Training Details:
+Optimizer: Adam.
+Loss Function: Binary Crossentropy.
+Epochs: 15.
+Dataset: 262 training, 37 validation, 26 test samples.
+
+Performance:
+Validation Accuracy: ~89%.
+Test Accuracy: ~92%.
