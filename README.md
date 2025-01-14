@@ -55,10 +55,9 @@ pictures that was generated using the program.
    - Click **Download image** to save the final composite image.
 
 
-## Project Structure
-
-- `uploaded_images`: Stores uploaded clothing images.
-- `categorized_uploads`: Contains categorized segmented images.
+## Files
+- `uploaded_images`: Stores uploaded clothing images. (This folder will appear when you run the program)
+- `categorized_uploads`: Contains categorized segmented images. (This folder will appear when you run the program)
 - `clothing_model2.keras`: The pre-trained TensorFlow model for clothing classification.
 
 
