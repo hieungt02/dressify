@@ -3,6 +3,10 @@ Dressify
 
 **Your virtual clothing assistant!**
 Dressify is a Streamlit-based application that categorizes clothing items, segments them from backgrounds, and allows you to create composite images with custom backgrounds.
+You can see a demo for Dressify on my [Portfolio](https://hieungt02.my.canva.site)!
+
+![result_image (3)](https://github.com/user-attachments/assets/49ffdab5-6733-4b88-a126-95c9d284da93)
+
 
 ---
 Prerequisites
